@@ -1,0 +1,273 @@
+/* CSS RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* css variables*/
+
+:root {
+    --navbar-height: 100px;
+}
+
+/* Navigation bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation bar: LOGO AND image */
+#logo {
+    margin: 30 px, 20 px;
+
+    /* work on it */
+}
+
+#logo img {
+    margin: 1px, 3px;
+    /* work on it */
+    height: 4 px;
+    /* work on it */
+}
+
+/*Navigation bar: LIST STYLING */
+
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    background-color: goldenrod;
+    width: 100%;
+    height: 300%
+}
+
+#navbar ::before {
+    content: " ";
+    background-color: goldenrod;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.9 rem;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: black;
+
+
+}
+
+/* home section  */
+#home {
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+
+}
+
+#home::before {
+    content: " ";
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* services section */
+
+#services {
+
+    display: flex;
+
+}
+
+#services .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#services .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+/* Family section */
+
+#family {
+
+    display: flex;
+
+}
+
+#family .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#family .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+
+}
+
+#family .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+/* SKILL SECTION */
+
+#skills {
+
+    display: flex;
+
+}
+
+#skills .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#skills .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#skills .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+/* further section */
+
+#further {
+
+    display: flex;
+
+}
+
+#further .box {
+    border: 10px solid goldenrod;
+    padding: 20px;
+    margin: 6px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+
+#further .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#further .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* ultility classes */
+
+.h-primary {
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 2px;
+}
+
+.h-secondry {
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    padding: 18px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
